@@ -2,7 +2,7 @@ PROJECT OVERVIEW
 
  The Hospital Management System is a SQL-based database project designed to efficiently manage the day-to-day operations of a hospital. The project demonstrates the use of SQL for storing, retrieving, and analyzing hospital data related to patients, doctors, appointments, billing, staff, departments, medicines, and payments.
 
- This project covers essential database concepts such as DDL, DML, Joins, Aggregate Functions, Views, Stored Procedures, and Triggers, making it suitable for learning and demonstrating relational database management skills.
+ This project covers essential database concepts such as DDL, DML, Joins, Aggregate Functions, Views, Stored Procedures, and Triggers, making it suitable for  learning and demonstrating relational database management skills.
 
 
 OBJECTIVES
