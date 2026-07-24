@@ -91,11 +91,13 @@ Hospital-Management-System-SQL/
 ├── README.md                           
         
 
+
 TECHNOLOGIES USED
 
  MySQL ,
  SQL ,
  MySQL Workbench (or any compatible SQL client)
+
 
 
 AUTHOR
