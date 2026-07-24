@@ -92,11 +92,13 @@ Hospital-Management-System-SQL/
         
 
 
+
 TECHNOLOGIES USED
 
  MySQL ,
  SQL ,
  MySQL Workbench (or any compatible SQL client)
+
 
 
 
