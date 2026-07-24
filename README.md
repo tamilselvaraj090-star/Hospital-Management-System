@@ -93,17 +93,20 @@ Hospital-Management-System-SQL/
 
 TECHNOLOGIES USED
 
- MySQL
- SQL
+ MySQL ,
+ SQL ,
  MySQL Workbench (or any compatible SQL client)
 
 
 AUTHOR
 
  Tamilarasi.S
+
  
  Project: Hospital Management System
  
+ 
  Academic Year: 2026
+
  
  Technology Used: MySQL & SQL
