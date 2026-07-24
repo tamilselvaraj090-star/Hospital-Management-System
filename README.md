@@ -7,6 +7,7 @@ This project covers essential database concepts such as DDL, DML, Joins, Aggrega
 
 
 Objectives
+
 Design and implement a relational database for a Hospital Management System using MySQL.
 Store and manage information related to patients, doctors, departments, staff, appointments, billing, medicines, and payments.
 Perform data retrieval using SQL queries with filtering, sorting, grouping, and aggregate functions.
@@ -21,6 +22,7 @@ Improve database management skills by building a real-world hospital management 
 
 
 Features
+
 Manage doctor, patient, staff, and department information.
 Track appointments between doctors and patients.
 Generate billing and payment records.
@@ -31,6 +33,7 @@ Retrieve reports using stored procedures.
 Perform analytical queries using aggregate functions and grouping.
 
 SQL Concepts Used
+
 SELECT queries
 WHERE, ORDER BY, GROUP BY, HAVING
 INNER JOIN
@@ -39,6 +42,7 @@ Views
 Stored Procedures
 Triggers
 Database Objects
+
 
 
 Database Relationships
@@ -57,7 +61,9 @@ Prescription_Details	Stores the medicines prescribed in each prescription. One p
 Medicine	Medicine stock is automatically updated through a trigger whenever a prescription is added.
 Staff	Each staff member belongs to one department.
 
+
 Reports Included
+
 Active doctors with more than five years of experience.
 Number of active doctors by specialization.
 Highest consultation fee for each specialization.
@@ -75,12 +81,13 @@ Project Structure
 Hospital-Management-System-SQL/
 │
 ├── Database/
-│   ├── hospital_management_schema.sql      # Database schema (CREATE TABLE statements)
-│   ├── hospital_management_data.sql        # Sample data (INSERT statements)
-│   └── hospital_management_queries.sql     # SQL queries, views, triggers, and stored procedures
+│   ├── hospital_management_schema.sql 
+│   ├── hospital_management_data.sql 
+│   └── hospital_management_queries.sql     
 │
 ├── ER_Diagram/
-│   └── hospital_erd.png                    # Entity Relationship Diagram
+
+│   └── hospital_erd.png                    
 │
 ├── Screenshots/
 │   ├── query_output_1.png
@@ -89,11 +96,15 @@ Hospital-Management-System-SQL/
 │   ├── trigger_output.png
 │   └── stored_procedure_output.png
 │
-├── README.md                               # Project documentation
-└── LICENSE                                 # Optional license file
+├── README.md                           
+└── LICENSE          
+
 
 Technologies Used
+
 MySQL
+
 SQL
+
 MySQL Workbench (or any compatible SQL client)
 
