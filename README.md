@@ -79,25 +79,31 @@ PROJECT STRUCTURE
 Hospital-Management-System-SQL/
 
 ├── create.sql
+
 ├── select.sql
+
 ├── dataset
+
 ├── queries.sql
+
 ├── er_diagram.png
+
 ├── README.md                           
         
 
 TECHNOLOGIES USED
 
  MySQL
-
  SQL
-
  MySQL Workbench (or any compatible SQL client)
 
 
 AUTHOR
 
  Tamilarasi.S
+ 
  Project: Hospital Management System
+ 
  Academic Year: 2026
+ 
  Technology Used: MySQL & SQL
