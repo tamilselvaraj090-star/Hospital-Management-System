@@ -1,68 +1,66 @@
-##Project Overview
+PROJECT OVERVIEW
 
-The Hospital Management System is a SQL-based database project designed to efficiently manage the day-to-day operations of a hospital. The project demonstrates the use of SQL for storing, retrieving, and analyzing hospital data related to patients, doctors, appointments, billing, staff, departments, medicines, and payments.
+ The Hospital Management System is a SQL-based database project designed to efficiently manage the day-to-day operations of a hospital. The project demonstrates the use of SQL for storing, retrieving, and analyzing hospital data related to patients, doctors, appointments, billing, staff, departments, medicines, and payments.
 
-This project covers essential database concepts such as DDL, DML, Joins, Aggregate Functions, Views, Stored Procedures, and Triggers, making it suitable for learning and demonstrating relational database management skills.# Hospital-Management-System
-
-
-
-Objectives
-
-Design and implement a relational database for a Hospital Management System using MySQL.
-Store and manage information related to patients, doctors, departments, staff, appointments, billing, medicines, and payments.
-Perform data retrieval using SQL queries with filtering, sorting, grouping, and aggregate functions.
-Use SQL JOIN operations to generate meaningful reports across multiple tables.
-Create database views to simplify access to frequently used hospital information.
-Implement stored procedures to retrieve doctor appointments and patient billing details efficiently.
-Automate medicine inventory updates using database triggers.
-Generate analytical reports such as doctor-wise appointments, department-wise staff count, payment method revenue, and patient statistics.
-Demonstrate the practical use of SQL concepts including DDL, DML, Views, Stored Procedures, Triggers, Aggregate Functions, and Joins.
-Improve database management skills by building a real-world hospital management database application.
+ This project covers essential database concepts such as DDL, DML, Joins, Aggregate Functions, Views, Stored Procedures, and Triggers, making it suitable for learning and demonstrating relational database management skills.
 
 
+OBJECTIVES
 
-Features
-
-Manage doctor, patient, staff, and department information.
-Track appointments between doctors and patients.
-Generate billing and payment records.
-Store and manage medicine inventory.
-Automatically reduce medicine stock using database triggers.
-Create reusable database views for appointments and billing.
-Retrieve reports using stored procedures.
-Perform analytical queries using aggregate functions and grouping.
-
-SQL Concepts Used
-
-SELECT queries
-WHERE, ORDER BY, GROUP BY, HAVING
-INNER JOIN
-Aggregate Functions (COUNT, SUM, MAX)
-Views
-Stored Procedures
-Triggers
-Database Objects
+ Design and implement a relational database for a Hospital Management System using MySQL.
+ Store and manage information related to patients, doctors, departments, staff, appointments, billing, medicines, and payments.
+ Perform data retrieval using SQL queries with filtering, sorting, grouping, and aggregate functions.
+ Use SQL JOIN operations to generate meaningful reports across multiple tables.
+ Create database views to simplify access to frequently used hospital information.
+ Implement stored procedures to retrieve doctor appointments and patient billing details efficiently.
+ Automate medicine inventory updates using database triggers.
+ Generate analytical reports such as doctor-wise appointments, department-wise staff count, payment method revenue, and patient statistics.
+ Demonstrate the practical use of SQL concepts including DDL, DML, Views, Stored Procedures, Triggers, Aggregate Functions, and Joins.
+ Improve database management skills by building a real-world hospital management database application.
 
 
 
-Database Relationships
+FEATURES
 
-The Hospital Management System database consists of multiple related tables connected using Primary Keys (PK) and Foreign Keys (FK) to maintain data integrity.
+ Manage doctor, patient, staff, and department information.
+ Track appointments between doctors and patients.
+ Generate billing and payment records.
+ Store and manage medicine inventory.
+ Automatically reduce medicine stock using database triggers.
+ Create reusable database views for appointments and billing.
+ Retrieve reports using stored procedures.
+ Perform analytical queries using aggregate functions and grouping.
 
-Table	Relationship
-Department	One department has many doctors and staff members.
-Doctor	Each doctor belongs to one department and can have multiple appointments.
-Patient	Each patient can have multiple appointments, bills, and payments.
-Appointment	Connects patients, doctors, and departments. Each appointment belongs to one patient, one doctor, and one department.
-Billing	Each billing record belongs to one patient.
-Payment	Payments are associated with billing records and store payment details such as amount and payment method.
-Prescription	Each prescription is created for a patient by a doctor.
-Prescription_Details	Stores the medicines prescribed in each prescription. One prescription can contain multiple medicines.
-Medicine	Medicine stock is automatically updated through a trigger whenever a prescription is added.
-Staff	Each staff member belongs to one department.
+SQL CONCEPTS IMPLEMENTED
+
+ SELECT queries
+ WHERE, ORDER BY, GROUP BY, HAVING
+ INNER JOIN
+ Aggregate Functions (COUNT, SUM, MAX)
+ Views
+ Stored Procedures
+ Triggers
+ Database Objects
 
 
-Reports Included
+
+DATABASES RELATIONSHIPS
+
+ The Hospital Management System database consists of multiple related tables connected using Primary Keys (PK) and Foreign Keys (FK) to maintain data integrity.
+
+  Table	Relationship
+  Department	One department has many doctors and staff members.
+  Doctor	Each doctor belongs to one department and can have multiple appointments.
+  Patient	Each patient can have multiple appointments, bills, and payments.
+  Appointment	Connects patients, doctors, and departments. Each appointment belongs to one patient, one doctor, and one department.
+  Billing	Each billing record belongs to one patient.
+  Payment	Payments are associated with billing records and store payment details such as amount and payment method.
+  Prescription	Each prescription is created for a patient by a doctor.
+  Prescription_Details	Stores the medicines prescribed in each prescription. One prescription can contain multiple medicines.
+  Medicine	Medicine stock is automatically updated through a trigger whenever a prescription is added.Staff	Each staff member belongs to one department.
+
+
+REPORTS INCLUDED
 
 Active doctors with more than five years of experience.
 Number of active doctors by specialization.
@@ -76,35 +74,30 @@ Department-wise staff count.
 
 
 
-Project Structure
+PROJECT STRUCTURE
 
 Hospital-Management-System-SQL/
-│
-├── Database/
-│   ├── hospital_management_schema.sql 
-│   ├── hospital_management_data.sql 
-│   └── hospital_management_queries.sql     
-│
-├── ER_Diagram/
 
-│   └── hospital_erd.png                    
-│
-├── Screenshots/
-│   ├── query_output_1.png
-│   ├── query_output_2.png
-│   ├── views_output.png
-│   ├── trigger_output.png
-│   └── stored_procedure_output.png
-│
+├── create.sql
+├── select.sql
+├── dataset
+├── queries.sql
+├── er_diagram.png
 ├── README.md                           
-└── LICENSE          
+        
+
+TECHNOLOGIES USED
+
+ MySQL
+
+ SQL
+
+ MySQL Workbench (or any compatible SQL client)
 
 
-Technologies Used
+AUTHOR
 
-MySQL
-
-SQL
-
-MySQL Workbench (or any compatible SQL client)
-
+ Tamilarasi.S
+ Project: Hospital Management System
+ Academic Year: 2026
+ Technology Used: MySQL & SQL
